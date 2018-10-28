@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:paddingLeft="15dp"
+            android:id="@+id/iv_contact"
+            android:text="聊天"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sl_message"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/dp_10"
+                android:id="@+id/tv_coin"
+                android:text="积分通知"
+                android:gravity="center|left"
+                android:drawablePadding="@dimen/dp_10"
+                android:textColor="#000000"
+                android:drawableRight="@mipmap/read_next_chapter_night"
+                android:paddingRight="@dimen/dp_5"
+                android:drawableLeft="@mipmap/con_score"
+                android:layout_height="@dimen/dp_50" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:background="#fafafa"/>
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:drawableLeft="@mipmap/con_notification"
+                android:drawablePadding="@dimen/dp_10"
+                android:drawableRight="@mipmap/read_next_chapter_night"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_5"
+                android:text="联系人"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:background="#fafafa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tv_system"
+                android:paddingLeft="@dimen/dp_10"
+                android:drawableRight="@mipmap/read_next_chapter_night"
+                android:paddingRight="@dimen/dp_5"
+                android:text="系统通知"
+                android:gravity="center|left"
+                android:drawablePadding="@dimen/dp_10"
+                android:textColor="#000000"
+                android:drawableLeft="@mipmap/con_history"
+                android:layout_height="@dimen/dp_50" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:background="#fafafa"/>
+            <fragment
+                android:id="@+id/subconversationlist"
+                android:name="io.rong.imkit.fragment.ConversationListFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

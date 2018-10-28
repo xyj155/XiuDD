@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.example.xiudd.sese.activity.SettingActivity">
+
+    <include layout="@layout/common_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_share"
+        android:layout_height="@dimen/dp_45"
+        android:drawableRight="@mipmap/cg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_7"
+        android:text="分享APP"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:background="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_reset_password"
+        android:layout_height="@dimen/dp_45"
+        android:drawableRight="@mipmap/cg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_7"
+        android:text="更改密码"
+        android:textColor="#000"
+        android:textSize="16sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:background="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:drawableRight="@mipmap/cg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_7"
+        android:text="检查更新"
+        android:id="@+id/tv_check_update"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:drawableRight="@mipmap/cg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_7"
+        android:text="关于APP"
+        android:id="@+id/tv_about"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:drawableRight="@mipmap/cg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_7"
+        android:text="意见反馈"
+        android:textColor="#000"
+        android:id="@+id/tv_reback"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:background="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_7"
+        android:text="注销登录"
+        android:textColor="#ff0000"
+        android:id="@+id/tv_login_out"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="#fafafa" />
+</LinearLayout>

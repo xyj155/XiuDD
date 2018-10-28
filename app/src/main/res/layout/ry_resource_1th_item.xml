@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:id="@+id/ll_hotvideo"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <ImageView
+            android:id="@+id/iv_res"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/iv_res"
+            android:id="@+id/tv_title"
+            android:layout_toRightOf="@+id/iv_res"
+            android:drawablePadding="8dp"
+            android:drawableRight="@mipmap/cg"
+            android:gravity="center|left"
+            android:paddingLeft="14dp"
+            android:textSize="16sp"
+            android:text="VIP电影"
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e6e6e6" />
+</LinearLayout>

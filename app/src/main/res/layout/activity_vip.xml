@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.xiudd.sese.activity.VIPActivity">
+
+    <include layout="@layout/common_toolbar" /><android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <com.example.xiudd.sese.view.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="@dimen/dp_65"
+                android:layout_height="@dimen/dp_65"
+                android:layout_margin="@dimen/dp_4"
+                android:src="@mipmap/user_head" />
+
+            <TextView
+                android:layout_marginTop="@dimen/dp_10"
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_toEndOf="@+id/circleImageView"
+                android:layout_toRightOf="@+id/circleImageView"
+                android:padding="5dp"
+                android:text="用户名"
+                android:textColor="#000"
+                android:textSize="@dimen/dp_17" />
+
+            <TextView
+                android:id="@+id/tv_is_vip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_username"
+                android:layout_alignStart="@+id/tv_username"
+                android:layout_below="@+id/tv_username"
+                android:layout_marginTop="@dimen/dp_7"
+                android:text="还未开通会员" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="22dp"
+                android:id="@+id/tv_open_vip"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/login_btn_bg_c_25_red"
+                android:paddingBottom="@dimen/dp_4"
+                android:paddingLeft="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_8"
+                android:paddingTop="@dimen/dp_4"
+                android:text="开通会员"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#fafafa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/vip1"
+                android:drawablePadding="5dp"
+                android:gravity="center|left"
+                android:paddingBottom="@dimen/dp_6"
+                android:paddingLeft="@dimen/dp_8"
+                android:paddingTop="@dimen/dp_6"
+                android:text="会员特权"
+                android:textColor="#000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/vip_shake"
+                    android:gravity="center"
+                    android:text="地区自选"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/vip_message"
+                    android:gravity="center"
+                    android:text="找人聊天"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/vip_chat"
+                    android:gravity="center"
+                    android:text="附近约人"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/vip_video"
+                    android:gravity="center"
+                    android:text="最新观影"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@mipmap/vip_download"
+                    android:gravity="center"
+                    android:text="自由下载"
+                    android:textColor="#000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="5dp"
+                android:background="#fafafa" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_75">
+
+                <ImageView
+                    android:id="@+id/iv_rank1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp"
+                    android:padding="@dimen/dp_10"
+                    android:src="@mipmap/cp_rank_first" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_rank1"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_toEndOf="@+id/iv_rank1"
+                    android:layout_toRightOf="@+id/iv_rank1"
+                    android:padding="@dimen/dp_8"
+                    android:text="黄金会员 88/月"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户建议使用APP内所有功能"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignLeft="@+id/textView4"
+                    android:layout_alignStart="@+id/textView4" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#fafafa" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_75">
+
+                <ImageView
+                    android:id="@+id/iv_rank2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp"
+                    android:padding="@dimen/dp_10"
+                    android:src="@mipmap/cp_rank_second" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_rank2"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_toEndOf="@+id/iv_rank2"
+                    android:layout_toRightOf="@+id/iv_rank2"
+                    android:padding="@dimen/dp_8"
+                    android:text="白银会员 60/月"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可以使用视频下载，社区，聊天等功能"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_alignStart="@+id/textView3" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#fafafa" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_75">
+
+                <ImageView
+                    android:id="@+id/iv_rank3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp"
+                    android:padding="@dimen/dp_10"
+                    android:src="@mipmap/cp_rank_third" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_rank3"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_toEndOf="@+id/iv_rank3"
+                    android:layout_toRightOf="@+id/iv_rank3"
+                    android:padding="@dimen/dp_8"
+                    android:text="青铜会员 40/月"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户可以使用社区，评论和视频下载功能"
+                    android:layout_below="@+id/textView6"
+                    android:layout_alignLeft="@+id/textView6"
+                    android:layout_alignStart="@+id/textView6" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#fafafa" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_75">
+
+                <ImageView
+                    android:id="@+id/iv_rank4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp"
+                    android:padding="@dimen/dp_10"
+                    android:src="@mipmap/vip" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="22dp"
+                    android:padding="@dimen/dp_8"
+                    android:text="普通会员 20/月"
+                    android:textColor="#000"
+                    android:layout_alignTop="@+id/iv_rank4"
+                    android:layout_toRightOf="@+id/iv_rank4"
+                    android:layout_toEndOf="@+id/iv_rank4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户仅可使用下载视频功能"
+                    android:layout_alignBottom="@+id/iv_rank4"
+                    android:layout_alignLeft="@+id/textView5"
+                    android:layout_alignStart="@+id/textView5" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#fafafa" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

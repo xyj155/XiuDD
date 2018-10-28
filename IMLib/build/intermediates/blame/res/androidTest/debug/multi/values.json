@@ -1,0 +1,351 @@
+[
+    {
+        "outputFile": "G:\\XiuDD\\IMLib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 13,
+                    "endColumn": 20,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 13,
+                        "endColumn": 20,
+                        "endOffset": 359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 364,
+                    "endColumn": 50,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 364,
+                        "endColumn": 50,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 46,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endColumn": 46,
+                        "endOffset": 457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 61,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 462,
+                        "endColumn": 61,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 49,
+                    "endOffset": 569
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 524,
+                        "endColumn": 49,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 574,
+                    "endColumn": 47,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 574,
+                        "endColumn": 47,
+                        "endOffset": 617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 60,
+                    "endOffset": 678
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 622,
+                        "endColumn": 60,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 683,
+                    "endColumn": 77,
+                    "endOffset": 756
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 683,
+                        "endColumn": 77,
+                        "endOffset": 756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 761,
+                    "endColumn": 55,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 761,
+                        "endColumn": 55,
+                        "endOffset": 812
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 817,
+                    "endColumn": 53,
+                    "endOffset": 866
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 817,
+                        "endColumn": 53,
+                        "endOffset": 866
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 871,
+                    "endColumn": 49,
+                    "endOffset": 916
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 871,
+                        "endColumn": 49,
+                        "endOffset": 916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 921,
+                    "endColumn": 61,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 921,
+                        "endColumn": 61,
+                        "endOffset": 978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 983,
+                    "endColumn": 80,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 983,
+                        "endColumn": 80,
+                        "endOffset": 1059
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 60,
+                    "endOffset": 1120
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1064,
+                        "endColumn": 60,
+                        "endOffset": 1120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1125,
+                    "endColumn": 66,
+                    "endOffset": 1187
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1125,
+                        "endColumn": 66,
+                        "endOffset": 1187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1192,
+                    "endColumn": 77,
+                    "endOffset": 1265
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1192,
+                        "endColumn": 77,
+                        "endOffset": 1265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1270,
+                    "endColumn": 64,
+                    "endOffset": 1330
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1270,
+                        "endColumn": 64,
+                        "endOffset": 1330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1335,
+                    "endColumn": 56,
+                    "endOffset": 1387
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1335,
+                        "endColumn": 56,
+                        "endOffset": 1387
+                    }
+                }
+            }
+        ]
+    }
+]

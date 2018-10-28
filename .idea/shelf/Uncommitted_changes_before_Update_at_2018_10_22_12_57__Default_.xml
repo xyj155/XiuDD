@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_2018_10_22_12_57__Default_" date="1540184279902" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2018_10_22_12_57__Default_/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2018/10/22 12:57 [Default]" />
+  <binary>
+    <option name="BEFORE_PATH" value="IMKit/build/outputs/aar/IMKit-debug.aar" />
+    <option name="AFTER_PATH" value="IMKit/build/outputs/aar/IMKit-debug.aar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2018_10_22_12_57__Default_/IMKit-debug.aar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="IMKit/build/outputs/aar/IMKit-release.aar" />
+    <option name="AFTER_PATH" value="IMKit/build/outputs/aar/IMKit-release.aar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2018_10_22_12_57__Default_/IMKit-release.aar" />
+  </binary>
+</changelist>

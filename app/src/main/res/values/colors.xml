@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cdcdcd</color>
+    <color name="colorPrimaryDark">#1E90FF</color>
+    <color name="colorAccent">#1E90FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="titbar_color">#0589ba</color>
+    <color name="touming">#00000000</color>
+    <color name="button">#fff</color>
+    <color name="left_menu_font">#142f3d</color>
+    <color name="shen">#007ba7</color>
+    <color name="qian">#aae8f7</color>
+    <color name="list_divider_line">#545454</color>
+    <color name="black_hehe">#8e8e8e</color>
+    <color name="green_normal">#37C000</color>
+    <color name="gray">#545454</color>
+    <color name="black">#295775</color>
+    <color name="updataversionbut">#00c3e8</color>
+    <color name="c_white">#ffffff</color>
+
+    <color name="grey_efefef">#efefef</color>
+    <color name="grey_efeff4">#efeff4</color>
+    <color name="grey_a6a2a1">#a6a2a1</color>
+    <color name="black_333333">#333333</color>
+    <color name="orange_e05a17">#e05a17</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_f7b93c">#f7b93c</color>
+    <color name="c_41c961">#41c961</color>
+</resources>

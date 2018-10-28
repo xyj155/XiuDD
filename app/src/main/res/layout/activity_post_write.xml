@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.example.xiudd.sese.activity.PostWriteActivity">
+
+    <include layout="@layout/common_toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_title"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:hint="标题"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp" />
+
+            <View
+                android:background="#fafafa"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="#ffffff"
+                android:gravity="top"
+                android:hint="输入你发送的内容"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp" />
+
+            <View
+                android:background="#fafafa"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:background="@drawable/tag_kind_border_bg"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ff6e70"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:id="@+id/tv_kind"
+                android:text="请选择发布类别" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/ry_gallary"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_btn_bg_c_8_red"
+        android:text="提交审核"
+        android:textColor="#fff" />
+
+</RelativeLayout>

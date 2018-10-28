@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MarqueeView">
+        <attr name="marqueeAnimDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleMarqueeView">
+        <attr name="smvTextColor" format="reference|color" />
+        <attr name="smvTextSize" format="dimension" />
+        <!--https://github.com/android/platform_frameworks_base/blob/master/core/res/res/values/attrs.xml-->
+        <attr name="smvTextGravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80" />
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08" />
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003" />
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005" />
+        </attr>
+        <attr name="smvTextSingleLine" format="boolean" />
+        <!-- Where to ellipsize text. -->
+        <attr name="smvTextEllipsize">
+            <enum name="none" value="0" />
+            <enum name="start" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="end" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <declare-styleable name="MyHoriztalProgressBar">
+        <attr name="progressbar_reach_color" format="color" />
+        <attr name="progressbar_unreach_color" format="color" />
+        <attr name="progressbar_reach_height" format="dimension" />
+        <attr name="progressbar_unreach_height" format="dimension" />
+        <attr name="progressbar_text_color" format="color" />
+        <attr name="progressbar_text_size" format="dimension" />
+        <attr name="progressbar_text_offset" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyRoundProgressBar">
+        <attr name="progressbar_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyHoriztalProgressBar2">
+        <attr name="reach_color" format="color" />
+        <attr name="unreach_color" format="color" />
+        <attr name="progressbar_height" format="dimension" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+
+    <!-- dialog样式 -->
+    <style name="dialog_custom" parent="@android:style/Theme.Dialog">
+        <!--窗口背景色透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否浮在界面上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <declare-styleable name="AbsRoundImageView">
+        <attr name="round_borderWidth" format="dimension|reference"/>
+        <attr name="round_borderColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="leftTopRadius" format="dimension|reference"/>
+        <attr name="rightTopRadius" format="dimension|reference"/>
+        <attr name="rightBottomRadius" format="dimension|reference"/>
+        <attr name="leftBottomRadius" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="PileLayout">
+        <attr name="PileLayout_vertivalSpace" format="dimension"/>
+        <attr name="PileLayout_pileWidth" format="dimension"/>
+    </declare-styleable>
+    <attr name="styleCircleNumberProgressBar" format="reference" />
+
+    <declare-styleable name="CircleNumberProgressBar">
+
+        <!-- 圆的半径 -->
+        <attr name="cnpb_circle_radius" format="dimension"/>
+
+        <!-- 开始角度，0 ~ 360 -->
+        <attr name="cnpb_start_angle" format="integer" />
+
+        <!-- 进度条的宽度 -->
+        <attr name="cnpb_bar_width" format="dimension" />
+
+        <!-- 达到的进度颜色 -->
+        <attr name="cnpb_reach_color" format="color" />
+
+        <!-- 未达到的进度颜色 -->
+        <attr name="cnpb_unreach_color" format="color" />
+
+        <!-- 文字大小 -->
+        <attr name="cnpb_text_size" format="dimension" />
+
+        <!-- 文字颜色 -->
+        <attr name="cnpb_text_color" format="color" />
+
+        <!-- 文字是否显示 -->
+        <attr name="cnpb_text_visibility" format="enum">
+            <enum name="invisible" value="0"/>
+            <enum name="visible" value="1"/>
+        </attr>
+
+        <!-- 单位 -->
+        <attr name="cnpb_unit" format="string"/>
+
+        <!-- 单位是否显示 -->
+        <attr name="cnpb_unit_visibility" format="enum">
+            <enum name="invisible" value="0"/>
+            <enum name="visible" value="1"/>
+        </attr>
+
+    </declare-styleable>
+
+    <style name="CircleNumberProgressBar">
+
+    </style>
+
+    <style name="CircleNumberProgressBar.Style">
+        <item name="cnpb_circle_radius">50dp</item>
+        <item name="cnpb_start_angle">0</item>
+        <item name="cnpb_bar_width">8dp</item>
+        <item name="cnpb_reach_color">#FF303F9F</item>
+        <item name="cnpb_unreach_color">#FFD3D6DA</item>
+        <item name="cnpb_text_size">16sp</item>
+        <item name="cnpb_text_color">#FF303F9F</item>
+        <item name="cnpb_text_visibility">visible</item>
+        <item name="cnpb_unit">%</item>
+        <item name="cnpb_unit_visibility">visible</item>
+    </style>
+</resources>

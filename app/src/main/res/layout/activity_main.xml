@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar" />
+
+    <RadioGroup
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableTop="@drawable/bottom_home_main"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="主页" />
+
+        <RadioButton
+            android:id="@+id/rb_resource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableTop="@drawable/bottom_home_resource"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="资源" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_5"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/home_add" />
+
+        <RadioButton
+            android:id="@+id/rb_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableTop="@drawable/bottom_home_message"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="聊天" />
+
+        <RadioButton
+            android:id="@+id/rb_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="@dimen/dp_5"
+            android:drawableTop="@drawable/bottom_home_user"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="个人" />
+    </RadioGroup>
+
+</RelativeLayout>

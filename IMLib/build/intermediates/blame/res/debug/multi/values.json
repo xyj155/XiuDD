@@ -1,0 +1,351 @@
+[
+    {
+        "outputFile": "G:\\XiuDD\\IMLib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 13,
+                    "endColumn": 20,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1284,
+                        "endLine": 43,
+                        "endColumn": 20,
+                        "endOffset": 1599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 364,
+                    "endColumn": 50,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 611,
+                        "endColumn": 50,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 46,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 422,
+                        "endColumn": 46,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 61,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 88,
+                        "endColumn": 61,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 49,
+                    "endOffset": 569
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 49,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 574,
+                    "endColumn": 47,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 47,
+                        "endOffset": 286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 60,
+                    "endOffset": 678
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 60,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 683,
+                    "endColumn": 77,
+                    "endOffset": 756
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 77,
+                        "endOffset": 1742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 761,
+                    "endColumn": 55,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1777,
+                        "endColumn": 55,
+                        "endOffset": 1828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 817,
+                    "endColumn": 53,
+                    "endOffset": 866
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 729,
+                        "endColumn": 53,
+                        "endOffset": 778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 871,
+                    "endColumn": 49,
+                    "endOffset": 916
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 49,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 921,
+                    "endColumn": 61,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 61,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 983,
+                    "endColumn": 80,
+                    "endOffset": 1059
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_configuration.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 80,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1064,
+                    "endColumn": 60,
+                    "endOffset": 1120
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 444,
+                        "endColumn": 60,
+                        "endOffset": 500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1125,
+                    "endColumn": 66,
+                    "endOffset": 1187
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 66,
+                        "endOffset": 359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1192,
+                    "endColumn": 77,
+                    "endOffset": 1265
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 77,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1270,
+                    "endColumn": 64,
+                    "endOffset": 1330
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 64,
+                        "endOffset": 291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1335,
+                    "endColumn": 56,
+                    "endOffset": 1387
+                },
+                "from": {
+                    "file": "G:\\XiuDD\\IMLib\\res\\values\\rc_lib_string.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 56,
+                        "endOffset": 111
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_back.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_back.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_emoji_eo_fail_default.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_emoji_eo_fail_default.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_emoji_delete_img.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_emoji_delete_img.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_emoji_loadfail.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_emoji_loadfail.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_chatto_bg_normal.9.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_chatfrom_bg_focused.9.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_chatfrom_bg_focused.9.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_chatto_bg_focused.9.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_setting2x.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_setting2x.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_keyboard_store_bg.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_keyboard_store_bg.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_chatfrom_bg_normal.9.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_chatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "G:\\XiuDD\\sticker\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\bqmm_emoji_loading.png",
+        "source": "G:\\XiuDD\\sticker\\src\\main\\res\\drawable-xhdpi\\bqmm_emoji_loading.png"
+    }
+]
